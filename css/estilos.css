@@ -56,8 +56,36 @@ p {
 
 /***************navegacion responsive*********************/
 
+.barra {
+    overflow: hidden;
+}
 
+.mobile-menu {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+}
 
+#nav:target {
+    max-height: 800px;
+}
+
+.navegacion-principal {
+    max-height: 0px;
+    transition: .5s;
+}
+
+@media (min-width: 768px) {
+    .navegacion-principal {
+        max-height: unset;
+    }
+    .mobile-menu,
+    .cerrar {
+        display: none!important;
+    }
+}
 
 
 /***********************BARRA*******************/
