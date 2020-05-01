@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Blog de Viajes</title>
     <link rel="stylesheet" href="css/estilos.css">
 
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
         <div class="contenedor">
             <div id="logo" class="logo">
                 <img src="img/logo.png">
-            </div> <!--.logo-->
+            </div>
+            <!--.logo-->
 
             <div class="buscador">
-              <form class="formulario" action="index.html" method="post">
+                <form class="formulario" action="index.html" method="post">
                     <label for="buscador">
                         <input type="search" id="buscador" name="buscador" placeholder="Buscar">
                     </label>
                     <input type="submit" id="buscar" class="buscador" value="Buscar">
-              </form>
+                </form>
             </div>
-        </div> <!--.contenedor-->
+        </div>
+        <!--.contenedor-->
     </header>
     <div id="navegacion" class="navegacion">
         <nav id="menu">
             <ul class="clearfix">
                 <li><a target="_blank" href="#">Inicio</a></li>
                 <li><a href="#">Nosotros</a>
-                  <ul>
-                    <li><a href="#">Mision</a></li>
-                    <li><a href="#">Vision</a></li>
-                    <li><a href="#">Valores</a></li>
-                  </ul>
+                    <ul>
+                        <li><a href="#">Mision</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">Valores</a></li>
+                    </ul>
                 </li>
                 <li><a href="#">Blog</a>
                     <ul>
-                      <li><a href="#">Consejos</a></li>
-                      <li><a href="#">Ciudades</a></li>
-                      <li><a href="#">Promociones</a></li>
+                        <li><a href="#">Consejos</a></li>
+                        <li><a href="#">Ciudades</a></li>
+                        <li><a href="#">Promociones</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Tienda</a></li>
@@ -46,6 +50,33 @@
             </ul>
         </nav>
     </div>
+
+    <div class="contenedor servicios">
+        <h2>Nuestros servicios</h2>
+        <nav>
+            <a href="#viajes">Viajes</a>
+            <a href="#asesoria">Asesoria</a>
+            <a href="#transporte">Transporte</a>
+        </nav>
+        <div class="nuestros-servicios">
+            <div id="viajes">
+                <h3>Proximos Viajes</h3>
+                <p>Lorem, ipsum dolor sit amet consecteLorem, ipsum dolor sit amet consecteLorem, ipsum dolor sit amet consecte</p>
+            </div>
+            <div id="asesoria">
+                <h3>Asesorias</h3>
+                <p>Lorem, ipsum dolor sit amet consecteLorem, ipsum dolor sit amet consecteLorem, ipsum dolor sit amet consecte</p>
+            </div>
+            <div id="transporte">
+                <h3>Transporte</h3>
+                <p>Lorem, ipsum dolor sit amet consecteLorem, ipsum dolor sit amet consecteLorem, ipsum dolor sit amet consecte</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
 
     <div id="contenido" class="contenido">
         <main>
@@ -75,42 +106,45 @@
         <aside id="sidebar" class="sidebar">
             <h2>Otros posts</h2>
             <ul>
-              <li><a href="#">Entrada 1</a></li>
-              <li><a href="#">Entrada 2</a></li>
-              <li><a href="#">Entrada 3</a></li>
-              <li><a href="#">Entrada 4</a></li>
-              <li><a href="#">Entrada 5</a></li>
+                <li><a href="#">Entrada 1</a></li>
+                <li><a href="#">Entrada 2</a></li>
+                <li><a href="#">Entrada 3</a></li>
+                <li><a href="#">Entrada 4</a></li>
+                <li><a href="#">Entrada 5</a></li>
             </ul>
         </aside>
-    </div> <!--contenido-->
+    </div>
+    <!--contenido-->
 
 
     <footer>
 
-      <div class="contenedor">
-          <div class="nosotros">
-              <h2>Sobre nosotros</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-          </div>
-          <div class="menu navegacion">
-            <h2>Menú de navegación</h2>
-            <nav>
-              <a href="#">Inicio</a>
-              <a href="#">Nosotros</a>
-              <a href="#">Blog</a>
-              <a href="#">Tienda</a>
-              <a href="#">Contacto</a>
-            </nav>
-          </div>
-      </div>
+        <div class="contenedor">
+            <div class="nosotros">
+                <h2>Sobre nosotros</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="menu navegacion">
+                <h2>Menú de navegación</h2>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Tienda</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
+        </div>
 
-      <p class="copyright">
-          Todos los derechos reservados &copy;. Blog de Viajes 2016
-      </p>
+        <p class="copyright">
+            Todos los derechos reservados &copy;. Blog de Viajes 2016
+        </p>
     </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/scripts.js"></script>
 
-  </body>
+</body>
+
 </html>
